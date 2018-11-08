@@ -14,7 +14,7 @@ public class Prvocinitele {
 			System.out.printf("%d =", cislo);
 			int delitel = 2;
 			while (delitel <= cislo) {
-				if ((cislo % delitel) == 0) {
+				while ((cislo % delitel) == 0) {
 					System.out.printf(" %d", delitel);
 					cislo /= delitel;
 				}
